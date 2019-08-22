@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+    <?!= include('stylesheet'); ?>
+  </head>
+  <body>
+  <div class="container">
+    <h1>Hello, World!</h1>
+    <h3>The time is <span class="yellow"><?= now() ?></span>.</h3>
+    <br>
+    <br>
+    <input type="button" value="Close" class="btn" onclick="google.script.host.close()" />
+  </div>
+    
+    <?!= include('javascript'); ?>    
+  </body>
+</html>
